@@ -1,1 +1,36 @@
 /* ----**** List *****---- */
+
+details.header-menu__desplegable {
+    margin-left: -14px;
+}
+
+summary.header-menu__desplegable-summary {
+    list-style: none;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: $color-blanco;
+}
+
+ul.header-menu__desplegable-lista {
+    /*display: none;*/
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    width: 100px;
+    text-align: right;
+    margin-left: -55px;
+    padding-top: 7px;
+}
+
+li.header-menu__desplegable-lista-item:nth-of-type(1) {
+    margin-bottom: 5px;
+}
+
+a.header-menu__desplegable-lista-link {
+    text-decoration: none;
+    color: $color-blanco;
+}
+
+a.header-menu__desplegable-lista-link:hover {
+    text-decoration: underline;
+}
