@@ -9,7 +9,7 @@ html, * {
 /* ----**** Body *****---- */
 body {
   margin: 0;
-  background-color: #AB88FF;
+  background-color: #8F57FD;
   font-family: "Mulish", sans-serif;
 }
 
@@ -31,6 +31,21 @@ header.header {
 }
 
 /* ----**** Section *****---- */
+section.section-buscador {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 300px;
+}
+
 /* ----**** Div *****---- */
 /*header*/
 div.header-menu-container {
@@ -47,6 +62,11 @@ div.header-menu-image {
 /* ----**** Footer *****---- */
 /* ----**** base *****---- */
 /* ----**** Title *****---- */
+h2.section-buscador__title {
+  font-family: "Mulish", sans-serif;
+  color: #FFF;
+}
+
 /* ----**** Nav *****---- */
 /* ----**** List *****---- */
 details.header-menu__desplegable {
@@ -87,6 +107,38 @@ a.header-menu__desplegable-lista-link:hover {
 /* ----**** Pgraphs *****---- */
 /* ----**** Button *****---- */
 /* ----**** Form *****---- */
+input.section-buscador__input {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  width: 70vw;
+  margin: 0 auto;
+  border: 2px solid #FFF;
+  border-radius: 50px;
+  outline: none;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+}
+
+input.section-buscador__input::-webkit-input-placeholder {
+  color: #FFF;
+}
+
+input.section-buscador__input::-moz-placeholder {
+  color: #FFF;
+}
+
+input.section-buscador__input:-ms-input-placeholder {
+  color: #FFF;
+}
+
+input.section-buscador__input::-ms-input-placeholder {
+  color: #FFF;
+}
+
+input.section-buscador__input::placeholder {
+  color: #FFF;
+}
+
 /* ----**** Image *****---- */
 .header-logo__image {
   width: 200px;
