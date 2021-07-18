@@ -16,4 +16,27 @@ input.section-buscador__input::placeholder {
     color: $color-blanco;
 }
 
+input.login-container__form--input {
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid $color-blanco;
+    width: 100%;
+    margin-bottom: 20px;
+    outline: none;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    &::placeholder {
+        color: $color-blanco;
+        font-size: 16px;
+    }
+}
+
+label.login-container__options--label {
+    font-size: 14px;
+    color: $color-blanco;
+    margin-right: 25px;
+}
+
+
+
 

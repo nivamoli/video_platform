@@ -11,4 +11,105 @@ div.header-menu-image {
     margin-right: 10px;
 }
 
+div.carousel-container {
+    white-space: nowrap;
+    margin: 70px 0;
+    padding-bottom: 10px;
+    display: flex;
+}
 
+div.carousel-container-item {
+    min-width: 210px;
+    height: 260px;
+    border-radius: 20px; 
+    margin: 0 5px;
+    padding: 0 0 15px 15px;
+    background-color: yellowgreen;
+    transition: 450ms all;
+    transform-origin: center left;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    &:hover ~ div.carousel-container-item {
+        transform: translate3d(100px, 0, 0);
+    }
+}
+
+div.carousel-container:hover div.carousel-container-item {
+    opacity: 0.3;
+}
+
+div.carousel-container:hover div.carousel-container-item:hover {
+    transform: scale(1.5);
+    opacity: 1;
+}
+
+div.carousel-item1 {
+    background-image: url(/assets/images/background-card1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.carousel-item2 {
+    background-image: url(/assets/images/background-card2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.carousel-item3 {
+    background-image: url(/assets/images/background-card3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.carousel-item4 {
+    background-image: url(/assets/images/background-card4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.carousel-item5 {
+    background-image: url(/assets/images/background-card5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.carousel-item6 {
+    background-image: url(/assets/images/background-card6.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.carousel-item7 {
+    background-image: url(/assets/images/background-card7.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.carousel-container-item__icons {
+display: none;
+}
+
+/* Página login */
+
+div.login-container {
+    width: 400px;
+    margin: 0 auto;
+    height: 80vh;
+    border: 2px solid $color-blanco;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 60px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+div.login-container__options {
+    margin-bottom: 40px;
+}
+
+div.login-apps-google {
+    margin-bottom: 15px;
+}
+
+div.login-apps-twitter {
+    margin-bottom: 40px;
+}

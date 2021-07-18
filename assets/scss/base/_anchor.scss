@@ -1,0 +1,39 @@
+/* ----**** Anchor *****---- */
+
+a.login-container__options--link {
+    font-size: 14px;
+    color: $color-blanco;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+a.login-apps__link {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+a.login-container__pgraph-register--link {
+    color: $color-blanco;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+a.footer-links {
+    color: $color-blanco;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    &:hover {
+        text-decoration: underline;
+    }
+}

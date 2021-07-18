@@ -7,3 +7,19 @@ section.section-buscador {
     justify-content: center;
     height: 300px;
 }
+
+section.carousel {
+    width: 100vw;
+    overflow: scroll;
+    padding-left: 30px;
+    position: relative;
+}
+
+/* section login */ 
+
+section.login {
+    background: linear-gradient($color-secundario, $color-terciario);
+    background-repeat: no-repeat;
+    height: calc(100vh - 100px);
+    padding-top: 20px;
+}

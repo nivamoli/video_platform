@@ -1,6 +1,20 @@
 /* ----**** Title *****---- */
 
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
 h2.section-buscador__title {
     font-family: $fuente-parrafo;
     color: $color-blanco;
+}
+
+h3.carousel__title {
+    color: $color-blanco;
+    margin-left: 7px;
+}
+
+h2.login-container__title {
+    color: $color-blanco;
+    margin-bottom: 70px;
 }
