@@ -207,6 +207,8 @@ div.login-apps-twitter {
 /* ----**** Footer *****---- */
 footer.footer {
   width: 100%;
+  position: relative;
+  bottom: 0;
   background-color: #AB88FF;
   padding-bottom: 20px;
   padding-left: 30px;
@@ -221,6 +223,7 @@ h1, h2, h3, h4, h5, h6 {
 h2.section-buscador__title {
   font-family: "Mulish", sans-serif;
   color: #FFF;
+  margin-bottom: 20px;
 }
 
 h3.carousel__title {
@@ -307,6 +310,12 @@ a.footer-links {
 }
 a.footer-links:hover {
   text-decoration: underline;
+}
+
+/* página registro */
+a.page-register-link {
+  text-align: center;
+  margin-top: 50px;
 }
 
 /* ----**** Pgraphs *****---- */
