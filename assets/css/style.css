@@ -68,6 +68,10 @@ section.login {
   padding-top: 20px;
 }
 
+section.carousel {
+  overflow: hidden;
+}
+
 /* ----**** Div *****---- */
 /*header*/
 div.header-menu-container {
@@ -96,7 +100,6 @@ div.carousel-container-item {
   border-radius: 20px;
   margin: 0 5px;
   padding: 0 0 15px 15px;
-  background-color: yellowgreen;
   -webkit-transition: 450ms all;
   transition: 450ms all;
   -webkit-transform-origin: center left;
@@ -212,6 +215,10 @@ footer.footer {
   background-color: #AB88FF;
   padding-bottom: 20px;
   padding-left: 30px;
+}
+
+footer.footer-principal {
+  background: transparent;
 }
 
 /* ----**** base *****---- */

@@ -24,7 +24,6 @@ div.carousel-container-item {
     border-radius: 20px; 
     margin: 0 5px;
     padding: 0 0 15px 15px;
-    background-color: yellowgreen;
     transition: 450ms all;
     transform-origin: center left;
     cursor: pointer;
@@ -85,7 +84,7 @@ div.carousel-item7 {
 }
 
 div.carousel-container-item__icons {
-display: none;
+    display: none;
 }
 
 /* Página login */
