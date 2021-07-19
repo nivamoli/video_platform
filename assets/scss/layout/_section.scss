@@ -27,3 +27,15 @@ section.login {
 section.carousel {
     overflow: hidden;
 }
+
+/* 404 not found */
+
+section.not-found {
+    height: calc(100vh - 120px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $color-blanco;
+    background: linear-gradient($color-secundario, $color-principal);
+}

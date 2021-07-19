@@ -72,6 +72,27 @@ section.carousel {
   overflow: hidden;
 }
 
+/* 404 not found */
+section.not-found {
+  height: calc(100vh - 120px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFF;
+  background: -webkit-gradient(linear, left top, left bottom, from(#21c08B), to(#8F57FD));
+  background: linear-gradient(#21c08B, #8F57FD);
+}
+
 /* ----**** Div *****---- */
 /*header*/
 div.header-menu-container {
@@ -217,7 +238,8 @@ footer.footer {
   padding-left: 30px;
 }
 
-footer.footer-principal {
+footer.footer-principal,
+footer.footer-404 {
   background: transparent;
 }
 
@@ -243,6 +265,48 @@ h2.login-container__title {
   margin-bottom: 70px;
 }
 
+h1.not-found__title {
+  font-size: 100px;
+  margin-top: -50px;
+  -webkit-animation-name: bounce;
+          animation-name: bounce;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  100% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  100% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+}
 /* ----**** Nav *****---- */
 /* ----**** List *****---- */
 details.header-menu__desplegable {
