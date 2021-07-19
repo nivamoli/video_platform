@@ -176,7 +176,7 @@ div.carousel-container-item__icons {
 
 /* Página login */
 div.login-container {
-  width: 400px;
+  max-width: 400px;
   margin: 0 auto;
   height: 80vh;
   border: 2px solid #FFF;
@@ -435,4 +435,28 @@ img.login-apps-image {
   width: 15px;
   height: 15px;
   margin-right: 10px;
+}
+
+/* ----**** Queries *****---- */
+@media screen and (max-width: 600px) {
+  section.login {
+    padding: 0;
+    height: 90vh;
+  }
+
+  div.login-container {
+    background-color: transparent;
+    border: none;
+    width: 100vw;
+  }
+
+  footer.footer {
+    padding: 0;
+  }
+
+  footer.footer a {
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+  }
 }

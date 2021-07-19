@@ -91,7 +91,7 @@ display: none;
 /* Página login */
 
 div.login-container {
-    width: 400px;
+    max-width: 400px;
     margin: 0 auto;
     height: 80vh;
     border: 2px solid $color-blanco;

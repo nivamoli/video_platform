@@ -1,0 +1,23 @@
+@media screen and(max-width: 600px) {
+    
+    section.login {
+        padding: 0;
+        height: 90vh;
+    }
+    
+    div.login-container {
+        background-color: transparent;
+        border: none;
+        width: 100vw;
+    }
+
+    footer.footer {
+        padding: 0;
+    }
+
+    footer.footer a{
+        display: block;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}

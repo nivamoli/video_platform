@@ -13,7 +13,6 @@
 @import "layout/div";
 @import "layout/footer";
 
-
 /* ----**** base *****---- */
 
 @import "base/title";
@@ -24,3 +23,8 @@
 @import "base/button";
 @import "base/form";
 @import "base/image";
+
+/* ----**** Queries *****---- */
+
+@import "queries/ipad";
+@import "queries/mobile";
