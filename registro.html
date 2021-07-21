@@ -14,16 +14,16 @@
 <body>
     <header class="header header-login">
         <div class="header-logo">
-            <img src="/assets/images/logo.png" alt="logo platzi video" class="header-logo__image">
+            <img src="/assets/images/logo.png" tabindex="0" alt="logo platzi video" class="header-logo__image">
         </div>
     </header>
     <section class="login">
         <div class="login-container">
-            <h2 class="login-container__title">Regístrate</h2>
+            <h2 class="login-container__title" tabindex="0">Regístrate</h2>
             <form action="" class="login-container__form">
-                <input type="text" class="login-container__form--input login-container__form--email" placeholder="Nombre">
-                <input type="text" class="login-container__form--input login-container__form--email" placeholder="Correo">
-                <input type="password" class="login-container__form--input login-container__form--password" placeholder="Contraseña">
+                <input type="text" aria-label="Nombre" class="login-container__form--input login-container__form--email" placeholder="Nombre">
+                <input type="text" aria-label="Correo" class="login-container__form--input login-container__form--email" placeholder="Correo">
+                <input type="password" aria-label="Contraseña" class="login-container__form--input login-container__form--password" placeholder="Contraseña">
                 <button class="login-container__form--button">Registrarme</button>
             </form>
             <a href="#" class="login-container__pgraph-register--link page-register-link">Iniciar sesión</a>
